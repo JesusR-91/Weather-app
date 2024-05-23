@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+
+p {
+  font-size: 2em;
+  color: white;
+}
+
+.app{
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top{
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-right: 60%;
+}
+
+.top h2{
+  font-size: 4em;
+  color: white;
+}
+
+.input{
+  border-radius: 2em !important;
+  border-color:rgba(255, 255, 255, 0.25) !important;
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  color: white !important;
+}
+
+.container{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2%;
+  border-color:rgba(255, 255, 255, 0.25) !important;
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+
+.bottom{
+  margin-top: 20%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center I !important;
+  flex-wrap: wrap;
+}
