@@ -2,7 +2,7 @@ WEATHER APP
 
 Small project developed with React (connecting to a weather api) and Docker.
 
-You can run the project locally using the following code string:
+You can run the project locally using the following:
 
 To install all the modules:
 - npm install
