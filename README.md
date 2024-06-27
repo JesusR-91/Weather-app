@@ -7,21 +7,12 @@
 
 <h2>Installation</h2>
 <p>To install all the modules:</p>
-<ul>
-  <li>npm install</li>
-</ul>
+
+<pre><code>npm install</code></pre>
 
 <p>To run the project:</p>
-<ul>
-  <li>npm start</li>
-</ul>
 
-<p>If you want to download it from Docker you need:</p>
-<ul>
-  <li>Install Docker</li>
-  <li>docker pull jesusmrj/weather_app</li>
-  <li>docker run -p 3000:3000 jesusmrj/weather_app</li>
-</ul>
+<pre><code>npm start</code></pre>
 
 <p>The app is running at <a href="http://localhost:3000">localhost:3000</a></p>
 
@@ -32,8 +23,8 @@
 <p>If you want to download it from Docker you need:</p>
 <ul>
   <li>Install Docker</li>
-  <li>docker pull jesusmrj/weather_app</li>
-  <li>docker run -p 3000:3000 jesusmrj/weather_app</li>
+  <pre><code>docker pull jesusmrj/weather_app</code></pre>
+  <pre><code>docker run -p 3000:3000 jesusmrj/weather_app</code></pre>
 </ul>
 
 <p>The app is running at <a href="http://localhost:3000">localhost:3000</a></p>
