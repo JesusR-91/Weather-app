@@ -23,7 +23,7 @@
 <p>If you want to download it from Docker you need:</p>
 <ul>
   <li>Install Docker</li>
-  <li>In the terminal run:</li>
+  <li><p></p>In the terminal run:</p></li>
     
   <pre><code>docker pull jesusmrj/weather_app</code></pre>
   <pre><code>docker run -p 3000:3000 jesusmrj/weather_app</code></pre>
