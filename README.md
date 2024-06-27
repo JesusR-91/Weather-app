@@ -5,6 +5,7 @@
 
 <p>You can run the project locally using the following:</p>
 
+<h2>Installation</h2>
 <p>To install all the modules:</p>
 <ul>
   <li>npm install</li>
@@ -26,6 +27,22 @@
 
 <hr/>
 
+<h2>Using Docker</h2>
+
+<p>If you want to download it from Docker you need:</p>
+<ul>
+  <li>Install Docker</li>
+  <li>docker pull jesusmrj/weather_app</li>
+  <li>docker run -p 3000:3000 jesusmrj/weather_app</li>
+</ul>
+
+<p>The app is running at <a href="http://localhost:3000">localhost:3000</a></p>
+
+<p>By following these steps, you can access and use the Weather App project without the need to clone the entire repository, simply by using the docker-compose.yml file and Docker Compose to run the application in your local environment.</p>
+
+<hr/>
+
 <h2>Author</h2>
 <p>Name: JesusMRJ</p>
 <p>Feel free to explore and contribute to this project!</p>
+
